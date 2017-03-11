@@ -360,7 +360,7 @@ blockquote p,.block-form blockquote p {
 
 #header .header-top-row {
     width: 100%;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: #000;
     position: relative;
 }
 
@@ -398,7 +398,7 @@ blockquote p,.block-form blockquote p {
 }
 
 #header .login a {
-    color: rgba(0, 0, 0, 1);
+    color: #fff;
     text-decoration: none;
 }
 
@@ -407,7 +407,7 @@ blockquote p,.block-form blockquote p {
 }
 
 #header .login i {
-    color: rgba(0, 0, 0, 1);
+    color: #fff;
     margin: 0 3px 0 10px;
 }
 
@@ -429,7 +429,7 @@ blockquote p,.block-form blockquote p {
     text-align: center;
     height: 40px;
     width: 110px;
-    color: rgba(0, 0, 0, 1);
+    color: #fff;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -461,7 +461,7 @@ blockquote p,.block-form blockquote p {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #000;
+  background: #fff;
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -477,7 +477,7 @@ blockquote p,.block-form blockquote p {
 
 
 #header #account-menu .account-menu-title i {
-    color: rgba(0, 0, 0, 1);
+    color: #fff;
 }
 
 #header #account-menu .account-menu-item {
@@ -1453,16 +1453,18 @@ blockquote p,.block-form blockquote p {
     transition: all .3s ease;
     opacity: 0;
     text-decoration: none;
+    padding: 0 5px;
 }
 
 .product .product-icons .product-icon a i {
     width: 24px;
+
 }
 
 .product .product-icons .product-icon a:hover {
-    background-color: none;
-    color: #707070;
-    border: 1px solid #707070;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
     
 }
 
@@ -2585,9 +2587,10 @@ blockquote {
 
 .btn-default:hover {
     text-decoration: none;
-    background: none;
-    color: #707070;
-     border: 1px solid #707070;
+    background-color: #000;
+    color: #fff;
+
+     border: 1px solid #000;
     
 }
 
@@ -3129,16 +3132,17 @@ blockquote {
     margin-top: 5px;
     font-size: 16px;
     height: 40px;
-    width: 40px;
+   
     text-align: center;
-    line-height: 38px;
-    color: #00b4c8;
-    border: 1px solid rgba(0,180,200,.5);
-    border-radius: 3px;
+    line-height: 24px;
+    color: #000;
+    border: 1px solid rgba(0,0,0, 1);
+    
+    padding: 5px;
 }
 
 .product-detail-section .product-information .shopping-cart-buttons a:hover {
-    background-color: #00b4c8;
+    background-color: rgba(0,0,0, 1);
     color: #fff;
 }
 
@@ -3186,10 +3190,11 @@ blockquote {
 }
 
 .product-detail-section .product-price {
-    color: #63116f;
-    font-size: 15px;
+    color: #333;
+    font-size: 20px;
     margin: 0;
     font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
 }
 
 .product-detail-section .product-price span {
@@ -3210,6 +3215,8 @@ blockquote {
 .product-detail-section h3 {
     margin: 0 0 10px;
     color: #303030;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .product-detail-section .product-rating {
@@ -3265,8 +3272,8 @@ blockquote {
 }
 
 .product-detail-section .description {
-    font-size: 14px;
-    color: rgba(48,48,48,.5);
+    font-size: 16px;
+    color: #333;
 }
 
 #MyContactForm label {
@@ -4536,6 +4543,18 @@ blockquote {
 .modal-body .hvr-underline-from-left:hover{
     color: rgba(0,0,0,0.6);
 }
+.modal-body .btn-default{
+    width: 100%;
+    background-color: #191919;
+    border: 1px silver #191919;
+    color: #fff;
+
+}
+.modal-body .btn-default:hover{
+    background: none;
+    color: #191919;
+}
+
 
 /*product-grid*/
 
@@ -4560,3 +4579,73 @@ blockquote {
 }
 
 /*product-grid end*/
+
+/*product detali */
+
+.product-detali{
+    margin-top: 200px;
+}
+
+/*product detali END*/
+
+
+/*myCabinet-pocupec*/
+
+.myCabinet-pocupec{
+    margin-top: 150px;
+}
+
+/*myCabinet-pocupec end*/
+
+
+/*prodavec home-page*/
+.prodavec-page{
+    margin-top: 150px;
+}
+
+.prodavec-img img{
+    max-width: 100%;
+}
+
+/*prodavec home-page end*/
+
+/* LOGIN */
+.login-section{
+    margin-top: 150px;
+}
+
+.login-section .btn-default{
+    width: 100%;
+    font-size: 20px;
+}
+.login-section .btn-default-1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    padding: 6px 20px;
+
+}
+.login-section .btn-default-1:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.register-section{
+    margin-top: 150px;
+}
+.register-section .btn-default{
+    width: 100%;
+}
+
+.login-section .box-border h3 i{
+    font-size: 25px;
+    color: #333;
+}
+
+.register-section .box-border h3 i{
+     font-size: 25px;
+    color: #333;
+}
+/* LOGIN end */
