@@ -193,252 +193,76 @@
             </div>
         </header>
         <!-- End header -->
-     
-  
-    
-     <section class="prodavec-page">
+       <section class="contact-page">
             <div class="block2">
                 <div class="container">
                     <div class="row">
-                      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                            <div class="block-form block-order-total box-border wow fadeInRight" data-wow-duration="1s">
-                                <h3>Ім'я ПРОДАВЦЯ</h3>
-                                <div class="prodavec-img"><img src="img/obnova/TARAS1.jpg">
-                                  
-                                </div>
-
-                                   
-                                             <div class="product-icon">
-                                                   <a href="#" class="latter-prodavec" title="написати продавцю"><i class="fa fa-envelope" aria-hidden="true"></i>Написати продавцю</a>
-                                                </div>
-                                                
-                                            
-                                </div>
-                       </article>
-
-
-                        <article class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
-                            <div class="box-border block-form wow fadeInLeft" data-wow-duration="1s">
-                                <!-- Nav tabs -->
-                                <ul class="nav nav-pills  nav-justified">
-                                    <li class="active"><a href="#address" data-toggle="tab"><i class="fa fa-thumb-tack"></i>Відгуки про продавця</a></li>
-                                    <li><a href="#shipping" data-toggle="tab" class="disabled"><i class="fa fa-truck"></i>Товари продавця</a></li>
-                                </ul>
-
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <div class="tab-pane active" id="address">
-                                        <div class="ordering">
-      
-                    <div class="login-box">
-                       
-                       <div class="tab-pane" id="review">
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <h3>Clients review</h3>
-                                                <hr>
-                                                <div class="review-header">
-                                                    <h5>John Smith</h5>
-                                                   
-                                                    <small class="text-muted">26/06/2014</small>
-                                                </div>
-                                                <div class="review-body">
-                                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-                                                </div>
-                                                <hr>
-                                                <div class="review-header">
-                                                    <h5>Tom Carry</h5>
-                                                    
-                                                    <small class="text-muted">05/07/2014</small>
-                                                </div>
-                                                <div class="review-body">
-                                                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-
-                                                </div>
-                                                <hr>
-                                            </div>
-                                        </div>
-                                        <form role="form" method="post" action="#">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="block-form box-border wow fadeInLeft animated" data-wow-duration="1s">
+                                
+                               
+                               
+                                <h3><i class="fa fa-envelope-o"></i>Залиште повідомлення</h3>
+                                <div id="form-wrapper">
+                                    <div id="form-inner">
+                                        <form id="MyContactForm" name="MyContactForm" method="post">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <label for="inputFirstName" class="control-label">login:<span class="text-error">*</span></label>
+                                                        <label for="inputFirstName" class="control-label">Ім'я:<span class="text-error">*</span></label>
                                                         <div>
-                                                            <input type="text" class="form-control" id="inputFirstName">
+                                                            <input type="text" class="form-control" name="name" id="name">
+                                                            <label for="name" id="nameLb"><span class="error" style="display: none;">*Name Field Required</span></label>
                                                         </div>
                                                     </div>
 
-
                                                 </div>
-                                             
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="inputLastName" class="control-label">Електронна адреса:<span class="text-error">*</span></label>
+                                                        <div>
+                                                            <input type="email" class="form-control" name="email" id="email">
+                                                            <label for="email" id="emailLb">
+                                                                <span class="error error1" style="display: none;">*Email Field Required</span> 
+                                                                <span class="error error2" style="display: none;">*Email Not Valid</span>
+                                                            </label> 
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                              
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <textarea class="form-control">    </textarea>
+                                                        <label for="inputText" class="control-label">Повідомлення:<span class="text-error">*</span></label>
+                                                        <div>
+                                                            <textarea name="message" id="message" class="form-control" rows="4"></textarea>
+                                                            <label for="message" id="messageLb"><span class="error" style="display: none;">*Message Field Required</span></label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-12">
-                                                   
-                                                </div>
-                                            </div>
-                                            <input type="submit"  class="btn-default" value="Add Review">
+                                            </div> 
+                                            <hr>
+                                            <input type="submit" class="btn-default contact-btn" value="Надіслати">
                                         </form>
-
                                     </div>
-                    </div>
-                </div>
-                </div>
-                                    
-                                    <div class="tab-pane" id="shipping">
-                                        <article class="product list">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 text-center">
-
-                                        <figure class="figure-hover-overlay"> 
-                                            <div class="product-new">new</div>
-                                            <a href="#"  class="figure-href"></a>
-                                           <img class="img-new-tovar" src="img/obnova/kesh5.jpg" alt="" title="">
-                                        </figure>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 text-center">
-                                        <div class="product-caption">
-                                            <div class="block-name">
-                                                <a href="#" class="product-name">Назва товару</a>
-                                                <a href="#" class="product-name">ПРОДАВЕЦЬ</a>
-                                                <p class="product-price"> $320.99</p>
-                                                <p class="description">
-                                                   Consectetur adipisicing eiusmod tempor ut labore et dolore magna aliqua. Lris nisi ut aliquip ex ea commodo consequat.                                          
-                                                </p>
-                                            </div>
-                                            <div class="product-icons show">
-                                            
-                                                <div class="product-icon">
-                                                    <a href="#" class="look-tovar" title="Compare"><i class="fa fa-eye" aria-hidden="true"></i>Переглянути</a>
-                                                </div>
-                                                <div class="product-icon">
-                                                   <a href="#" class="latter-prodavec" title="написати продавцю"><i class="fa fa-envelope" aria-hidden="true"></i>Написати продавцю</a>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
+                                      <div class="socials">
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </div> 
                                 </div>
-                            </article>
-                           <article class="product list">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 text-center">
-
-                                        <figure class="figure-hover-overlay"> 
-                                            <div class="product-new">new</div>
-                                            <a href="#"  class="figure-href"></a>
-                                           <img class="img-new-tovar" src="img/obnova/kesh2.jpg" alt="" title="">
-                                        </figure>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 text-center">
-                                        <div class="product-caption">
-                                            <div class="block-name">
-                                                <a href="#" class="product-name">Назва товару</a>
-                                                <a href="#" class="product-name">ПРОДАВЕЦЬ</a>
-                                                <p class="product-price"> $320.99</p>
-                                                <p class="description">
-                                                   Consectetur adipisicing eiusmod tempor ut labore et dolore magna aliqua. Lris nisi ut aliquip ex ea commodo consequat.                                          
-                                                </p>
-                                            </div>
-                                            <div class="product-icons show">
-                                            
-                                                <div class="product-icon">
-                                                    <a href="#" class="look-tovar" title="Compare"><i class="fa fa-eye" aria-hidden="true"></i>Переглянути</a>
-                                                </div>
-                                                <div class="product-icon">
-                                                   <a href="#" class="latter-prodavec" title="написати продавцю"><i class="fa fa-envelope" aria-hidden="true"></i>Написати продавцю</a>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="product list">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 text-center">
-
-                                        <figure class="figure-hover-overlay"> 
-                                            <div class="product-new">new</div>
-                                            <a href="#"  class="figure-href"></a>
-                                           <img class="img-new-tovar" src="img/obnova/kesh1.jpg" alt="" title="">
-                                        </figure>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 text-center">
-                                        <div class="product-caption">
-                                            <div class="block-name">
-                                                <a href="#" class="product-name">Назва товару</a>
-                                                <a href="#" class="product-name">ПРОДАВЕЦЬ</a>
-                                                <p class="product-price"> $320.99</p>
-                                                <p class="description">
-                                                   Consectetur adipisicing eiusmod tempor ut labore et dolore magna aliqua. Lris nisi ut aliquip ex ea commodo consequat.                                          
-                                                </p>
-                                            </div>
-                                            <div class="product-icons show">
-                                            
-                                                <div class="product-icon">
-                                                    <a href="#" class="look-tovar" title="Compare"><i class="fa fa-eye" aria-hidden="true"></i>Переглянути</a>
-                                                </div>
-                                                <div class="product-icon">
-                                                   <a href="#" class="latter-prodavec" title="написати продавцю"><i class="fa fa-envelope" aria-hidden="true"></i>Написати продавцю</a>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="product list">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 text-center">
-
-                                        <figure class="figure-hover-overlay"> 
-                                            <div class="product-new">new</div>
-                                            <a href="#"  class="figure-href"></a>
-                                           <img class="img-new-tovar" src="img/obnova/kl1.jpg" alt="" title="">
-                                        </figure>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 text-center">
-                                        <div class="product-caption">
-                                            <div class="block-name">
-                                                <a href="#" class="product-name">Назва товару</a>
-                                                <a href="#" class="product-name">ПРОДАВЕЦЬ</a>
-                                                <p class="product-price"> $320.99</p>
-                                                <p class="description">
-                                                   Consectetur adipisicing eiusmod tempor ut labore et dolore magna aliqua. Lris nisi ut aliquip ex ea commodo consequat.                                          
-                                                </p>
-                                            </div>
-                                            <div class="product-icons show">
-                                            
-                                                <div class="product-icon">
-                                                    <a href="#" class="look-tovar" title="Compare"><i class="fa fa-eye" aria-hidden="true"></i>Переглянути</a>
-                                                </div>
-                                                <div class="product-icon">
-                                                   <a href="#" class="latter-prodavec" title="написати продавцю"><i class="fa fa-envelope" aria-hidden="true"></i>Написати продавцю</a>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-                                    </div>
-                                 </div>
                             </div>
-                        </article>
-                      
-                            </div>
+
+                        </div>
                        
                     </div>
                 </div>
             </div>
         </section>
-
+  
+    
+   
 
 
 
