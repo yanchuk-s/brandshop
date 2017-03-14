@@ -4522,6 +4522,11 @@ blockquote {
     background-color: rgba(0,0,0,0.9);
     color: #fff;
 }
+
+.modal-body .massegeRegister  p{
+    font-size: 20px;
+    color: #000;
+}
 .modal-header h4{
     color: #fff;
 }
@@ -4656,6 +4661,7 @@ blockquote {
     width: 100%;
 }
 
+
 .login-section .box-border h3 i{
     font-size: 25px;
     color: #333;
@@ -4664,6 +4670,18 @@ blockquote {
 .register-section .box-border h3 i{
      font-size: 25px;
     color: #333;
+}
+.register-prodacec{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.register-prodacec h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.form-group {width: 100%; text-align: center;margin:20px 0;}
+.form-group a{
+    width: 100%;
 }
 /* LOGIN end */
 /*contact-page */

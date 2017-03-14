@@ -31,6 +31,36 @@
 
     </head>
     <body>
+    
+  <!-- Modal REGISTR-->
+<div class="modal fade " id="ModalRegistr" tabindex="-1" role="dialog" aria-labelledby="myModalREGISTR">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4>Дякуюмо за реєстрацію!</h4>
+       
+      </div>
+      <div class="modal-body">
+        
+          <div class="massegeRegister">
+           
+            <p>Очікуйте на підтвердження вашого профілю!</p>
+            <p>Це може зайняти декілька хвилин</p>
+
+          </div>
+        <div class="form-group">
+    <div class=" col-sm-12">
+      <button type="submit" class="btn btn-default" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-check-square-o" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+          <p>Вже зареєстровані? <a href="">Увійдіть</a></p>
+          
+      </div>
+    </div>
+  </div>
+</div>  
 
 
         <!-- Header-->
@@ -194,6 +224,10 @@
         <!-- End header -->
      
   
+
+
+
+
     
     <section class="register-section">
             <div class="block2">
@@ -201,6 +235,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-8 col-md-offset-3 col-sm-offset-2">
                             <div class="block-form box-border wow fadeInLeft animated" data-wow-duration="1s">
+                            <div class="register-prodacec"><h1>Зареєструватись як продавець</h1></div>
                                 <h3><i class="fa fa-user"></i>Персональна інформація</h3>
                                 <hr>
                                 <form class="form-horizontal" role="form" method="post" action="#">
@@ -215,6 +250,12 @@
                                         <label for="inputEMail" class="col-sm-3 control-label">Електронна адреса:<span class="text-error">*</span></label>
                                         <div class="col-sm-9">
                                             <input type="email" class="form-control" id="inputEMail">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputVK" class="col-sm-3 control-label">Силка на ваший профіль VK:<span class="text-error">*</span></label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control" id="inputVK">
                                         </div>
                                     </div>
                                    
@@ -237,7 +278,7 @@
                                  
                                     <div class="form-group">
                                         <div class="col-sm-12">
-                                            <button type="submit" class="btn-default">Зареєструватися</button>
+                                            <a type="submit" class="btn-default" href="" data-toggle="modal" data-target="#ModalRegistr">Зареєструватися</a>
                                         </div>
                                     </div>
                                 </form>
