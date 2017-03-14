@@ -4600,8 +4600,8 @@ blockquote {
     margin-top: 150px;
 }
 
-.home-page-img img{
-    max-width: 100%;
+.home-page-img img {
+    width: 100%;
 }
 
 .block-order-total .product-icon{
@@ -4692,7 +4692,7 @@ blockquote {
 .pocupec-kabinet-page h3{
     margin-bottom: 15px;
 }
-.pocupec-kabinet-page .change-photo{
+.change-photo{
     margin-top: 20px;
     border: none;
     background: none;
@@ -4700,7 +4700,7 @@ blockquote {
     padding: 10px 20px;
     font-size: 15px;
 }
-.pocupec-kabinet-page .change-photo:hover{
+ .change-photo:hover{
     background-color: #000;
     color: #fff;
 }
@@ -4765,13 +4765,13 @@ blockquote {
     outline: none;
 }
 
-.profile-detali .order-then{
+ .order-then{
     padding: 10px 40px;
     margin-top: 30px;
     background: none;
     border: 1px solid #000;
 }
-.profile-detali.order-then:hover{
+.order-then:hover{
     background-color: #000;
     color: #fff;
 }
@@ -4784,3 +4784,62 @@ blockquote {
 }
 
 /*Покупець особистий кабынет end*/
+
+/* ПРодавець особистий кабінет  */
+
+.PRODAVEC-kabinet-page{
+    margin-top: 150px;
+}
+.add-tovar{
+     margin: 20px 0;
+}
+.add-tovar a{
+    
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+
+}
+.add-tovar a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/*prodavec-add-tovar*/
+.prodavec-add-tovar {
+    margin-top: 150px;
+}
+.prodavec-add-tovar .add-tovar-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+.prodavec-add-tovar .add-tovar-input:focus{
+    outline: none;
+    border-bottom: 1px solid #656565;
+
+}
+
+.prodavec-add-tovar .product-detail-section .product-information .form-control {
+    width: 100%;
+    border: 1px solid rgba(48,48,48,.1);
+    border-radius: 3px;
+   
+
+}
+.add-tovar-photo{
+    margin-top: 30px;
+}
+.add-tovar-photo .form-group input{
+    margin-top: 10px;
+
+}
+
+/*prodavec-add-tovar end*/
+
+
+/* ПРодавець особистий кабінет end */
+
+
